@@ -14,9 +14,7 @@ public class VendorService implements VendorServiceInterface{
 
 
     @Override
-    public List<Vendor> getAllVendors() {
-        return vendorRepository.findAll();
-    }
+    public List<Vendor> getAllVendors() { return vendorRepository.findAll(); }
 
     @Override
     public Vendor saveVendor(Vendor vendor) {

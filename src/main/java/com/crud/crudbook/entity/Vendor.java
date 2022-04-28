@@ -5,7 +5,7 @@ import lombok.Data;
 import javax.persistence.*;
 
 @Entity(name = "Vendor")
-@Table(name = "Vendor")
+@Table(name = "vendor")
 @Data
 public class Vendor {
     @Id
@@ -13,5 +13,5 @@ public class Vendor {
     private Long id;
     private String name;
     private Integer number;
-    private Integer address;
+    private String address;
 }
